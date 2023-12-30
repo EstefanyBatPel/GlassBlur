@@ -1,8 +1,11 @@
 body {
     background-image: url(imagenes/Fondo.jpg);
-    background-size: cover;
+    background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
+    background-repeat: no-repeat; /* Hace que el fondo no se repita en responsive */
+    background-attachment: fixed; /* Hace que el fondo ocupe toda la pantalla en responsive */
+    background-position: center center; /* Hace que el fondo se centre en responsive */
 }
-.principal {
+/* .principal {
     width: 99vw;
     height: 45vw;
     display: flex;
@@ -17,4 +20,4 @@ body {
     margin-left: 10vw;
     background-color: rgba(0, 0, 0, 0.196);
     backdrop-filter: blur(2px);
-}
+} */
