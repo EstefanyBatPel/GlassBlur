@@ -1,0 +1,20 @@
+body {
+    background-image: url(imagenes/Fondo.jpg);
+    background-size: cover;
+}
+.principal {
+    width: 99vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+.blur {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 10%;
+    margin-top: 2vw;
+    margin-left: 10vw;
+    background-color: rgba(0, 0, 0, 0.196);
+    backdrop-filter: blur(2px);
+}
