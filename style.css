@@ -1,23 +1,44 @@
 body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; /* 100% del viewport height */
+    /* Esto es para que body ocupe todo el viewport */
     background-image: url(imagenes/Fondo.jpg);
     background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
     background-repeat: no-repeat; /* Hace que el fondo no se repita en responsive */
     background-attachment: fixed; /* Hace que el fondo ocupe toda la pantalla en responsive */
     background-position: center center; /* Hace que el fondo se centre en responsive */
 }
-/* .principal {
-    width: 99vw;
-    height: 45vw;
-    display: flex;
-    align-items: center;
-}
 
 .blur {
-    width: 40vw;
-    height: 40vw;
-    border-radius: 10%;
-    margin-top: 2vw;
-    margin-left: 10vw;
-    background-color: rgba(0, 0, 0, 0.196);
-    backdrop-filter: blur(2px);
-} */
+    border: 1px solid #fff;
+    background-color: rgba( 0, 0, 0, 0.3); /* Color de blur (Negro) */
+    backdrop-filter: blur(3px); /* Filtro de blur */
+    width:  520px;
+    height: 600px;/* Define el tamaño del elemento*/
+    border-radius: 15%;
+    position: relative; /* Permite mover el elemento */
+    top: 4vh;
+    left: 11.5vw;
+}
+
+.center {
+    padding: 50px 35px 50px 35px; /* Separa el textodel blur de los bordes */  
+}
+
+.title {
+    text-align: center; /* Centra el titulo */
+}
+
+.text {
+    font-size: 30px;
+}
+
+.description {
+    max-width: 400px; /* Ajusta el ancho de la caja de texto */
+    margin: 50px 0px 50px 0px;
+    font-size: 24px;
+}
